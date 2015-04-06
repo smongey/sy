@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sean &amp; Yvette</title>
+	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.min.js"></script>
+	<script src="app.js"></script>
+
+
+	<!-- ALL PROJECTS -->
+	<script id="projects" type="text/x-handlebars-template">
+	  <div class="projects">
+	  	{{#each this}}
+			<div class="project" data-id="{{id}}">
+				<img src="{{thumbnail}}" />
+				<div class="overlay">
+					<h3>{{title}}</h3>
+				</div>
+			</div>
+	  	{{/each}}
+	  </div>
+	</script>
+
+	<!-- SINGLE PROJECT -->
+	<script id="single" type="text/x-handlebars-template">
+  		<div class="single">
+			<span class="close"></span>
+  			<div>
+				<h1>{{title}}</h1>
+				<h3>{{category}}</h3>
+				<div class="info">
+					{{blurb}}
+				</div>
+				<div class="image">
+					{{#each images}}
+					<img src="{{image}}" alt="{{caption}}"/>
+					{{/each}}
+				</div>
+			</div>	
+		</div>
+	</script>
+
+
+	<!-- ABOUT -->
+	<script id="about" type="text/x-handlebars-template">
+  		<div class="about">
+  			<h1>WHA: {{title}}</h1>
+  		</div>
+	</script>
+
+
+	<!-- NAVIGATION -->
+	<script id="navigation" type="text/x-handlebars-template">
+		<ul class="navigation">
+			{{#each navigation}}
+			<li><a href="{{url}}">{{title}}</a></li>
+			{{/each}}
+		</ul>
+	</script>
+
+
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="wrap"></div>
+</body>
+</html>

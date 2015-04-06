@@ -1,0 +1,50 @@
+[
+  {
+    "id": 0,
+    "title": "Ebony & Co",
+    "category": "Commissions",
+    "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "thumbnail": "http://placehold.it/300x300/333/333", 
+    "images": [
+      {"image" : "http://placehold.it/1000x700/333/333", "caption" : "First Image"},
+      {"image" : "http://placehold.it/1000x700/666/666", "caption" : "Second Image"},
+      {"image" : "http://placehold.it/1000x700/999/999", "caption" : "Third Image"}
+    ]
+  },
+  {
+    "id": 1,
+    "title": "4/704",
+    "category": "Projects",
+    "blurb": "Consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "thumbnail": "http://placehold.it/300x300/111/111", 
+    "images": [
+      {"image" : "http://placehold.it/1000x700/111/111", "caption" : "First Image"},
+      {"image" : "http://placehold.it/1000x700/222/222", "caption" : "Second Image"},
+      {"image" : "http://placehold.it/1000x700/333/333", "caption" : "Third Image"}
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Project Title",
+    "category": "Portraits",
+    "blurb": "Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "thumbnail": "http://placehold.it/300x300/666/666", 
+    "images": [
+      {"image" : "http://placehold.it/1000x700/666/666", "caption" : "First Image"},
+      {"image" : "http://placehold.it/1000x700/777/777", "caption" : "Second Image"},
+      {"image" : "http://placehold.it/1000x700/888/888", "caption" : "Third Image"}
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Another Project Title",
+    "category": "Portraits",
+    "blurb": "Tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "thumbnail": "http://placehold.it/300x300/444/444", 
+    "images": [
+      {"image" : "http://placehold.it/1000x700/666/666", "caption" : "First Image"},
+      {"image" : "http://placehold.it/1000x700/777/777", "caption" : "Second Image"},
+      {"image" : "http://placehold.it/1000x700/888/888", "caption" : "Third Image"}
+    ]
+  }
+]

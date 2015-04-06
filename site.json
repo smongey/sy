@@ -1,0 +1,10 @@
+[{
+	"title": "Sean & Yvette",
+	"navigation" : [
+		{ "title" : "Commissions", "url" : "#commissions"},
+		{ "title" : "Portraits", "url" : "#portraits"},
+		{ "title" : "Projects", "url" : "#projects"},
+		{ "title" : "About", "url" : "#about"},
+		{ "title" : "News", "url" : "#news"}
+	]
+}]

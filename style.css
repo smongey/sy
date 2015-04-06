@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.noscroll {
+  overflow-y: hidden; }
+
+#wrap {
+  background: #e6e6e6; }
+
+.navigation {
+  padding: 50px;
+  text-align: center; }
+  .navigation li {
+    display: inline-block;
+    padding: 20px; }
+  .navigation a {
+    font: 1.75em/1em Times, serif;
+    color: #333;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased; }
+
+.projects {
+  padding: 0 5% 5%;
+  width: 100%;
+  overflow: auto; }
+
+.project {
+  position: relative;
+  width: calc(100% / 3);
+  float: left;
+  overflow: hidden;
+  line-height: 0; }
+  .project img {
+    width: 100%;
+    max-width: 100%; }
+  .project .overlay {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    pointer-events: none; }
+    .project .overlay h3 {
+      left: 50%;
+      top: 50%;
+      position: absolute;
+      line-height: 0;
+      transform: translate(-50%, -70%);
+      font: 1.2em/1.2em 'Georgia', serif;
+      color: white;
+      -webkit-font-smoothing: antialiased; }
+
+.single {
+  width: 100%;
+  right: 0px;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  background: white;
+  padding: 20px;
+  overflow-x: auto;
+  overflow-y: scroll; }
+  .single > div {
+    position: absolute;
+    height: inherit; }
+  .single h1, .single h3, .single div > div {
+    padding: 10px 0; }
+  .single img {
+    max-width: 100%;
+    padding-bottom: 20px; }
+
+.close {
+  width: 30px;
+  height: 30px;
+  background: red;
+  position: fixed;
+  right: 30px;
+  top: 30px;
+  z-index: 9999; }
+
+.about {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  position: fixed;
+  background: red; }
