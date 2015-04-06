@@ -8,7 +8,9 @@
     "images": [
       {"image" : "http://placehold.it/1000x700/333/333", "caption" : "First Image"},
       {"image" : "http://placehold.it/1000x700/666/666", "caption" : "Second Image"},
-      {"image" : "http://placehold.it/1000x700/999/999", "caption" : "Third Image"}
+      {"image" : "http://placehold.it/1000x700/999/999", "caption" : "Third Image"},
+      {"image" : "http://placehold.it/1000x700/222/666", "caption" : "Fourth Image"},
+      {"image" : "http://placehold.it/1000x700/111/999", "caption" : "Fifth Image"}
     ]
   },
   {
@@ -39,6 +41,18 @@
     "id": 3,
     "title": "Another Project Title",
     "category": "Portraits",
+    "blurb": "Tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "thumbnail": "http://placehold.it/300x300/444/444", 
+    "images": [
+      {"image" : "http://placehold.it/1000x700/666/666", "caption" : "First Image"},
+      {"image" : "http://placehold.it/1000x700/777/777", "caption" : "Second Image"},
+      {"image" : "http://placehold.it/1000x700/888/888", "caption" : "Third Image"}
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Wha Project Title",
+    "category": "Projects",
     "blurb": "Tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
     "thumbnail": "http://placehold.it/300x300/444/444", 
     "images": [
